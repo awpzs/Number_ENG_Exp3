@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Participant Information Survey</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+      p{font-family:arial;}
+      label{font-family:arial;}
+  </style>
+</head>
+
+<body>
+
+<main>
+  <p>Please fill in this short questionnaire before proceeding to the instructions.</p>
+  <p>All the fields are mandatory.</p>
+
+  <form>
+    <p>Are you a university student?</p>
+    <label for="yes"><input id="uniyes" class="obligatory" type="radio" name="student_status" value="yes" required> Yes</label>
+    <label for="no"><input id="unino" type="radio" name="student_status" value="no"> No</label><br>
+<!---
+    <p>The name of your university:</p>
+    <input type="text" class="obligatory" placeholder="university name" name="uni_name" required>
+--->
+    <p>Please confirm if you have difficulty with reading and/or processing visual images:</p>
+    <label for="yes"><input id="visualno" class="obligatory" type="radio" name="visual_impairment" value="no" required> I have NO DIFFICULTY with reading and/or processing visual images</label><br>
+    <label for="no"><input id="visualyes" type="radio" name="visual_impairment" value="yes"> I do HAVE DIFFICULTIES with reading and/or processing visual images</label><br>
+    <p>Are you a native British English speaker?</p>
+    <label for="yes"><input id="nativeyes" class="obligatory" type="radio" name="native_speaker" value="yes" required> Yes</label>
+    <label for="no"><input id="nativeno" type="radio" name="native_speaker" value="no"> No</label><br>
+    <p>Have you been brought up in a household where only British English is spoken?</p>
+    <label for="yes"><input id="nativePyes" class="obligatory" type="radio" name="native_parents" value="yes" required> Yes</label>
+    <label for="no"><input id="nativePno" type="radio" name="native_parents" value="no"> No</label><br>
+<!---
+    <p>Your age:</p>
+    <input type="text" class="obligatory" placeholder="age" name="age"required>
+    <p>Your gender:</p>
+    <label for="female"><input id="genderFemale" class="obligatory" type="radio" name="gender" value="female" required> Female</label>
+    <label for="male"><input id="genderMale" class="obligatory" type="radio" name="gender" value="male" required> Male</label>
+    <label for="other"><input id="genderOther" class="obligatory" type="radio" name="gender" value="other" required> Other</label>
+    <label for="not_to_say"><input id="genderNo" type="radio" name="gender" value="notToSay"> Prefer not to say</label><br>
+--->
+    <p>If you have answered "no" to any of the above questions or you have difficulty with reading or processing images, you are not qualified for this study. Please close the browser now and we thank you for your interest in this study.</p>
+    <p>Please click on <strong>Start</strong> to proceed to the instructions.</p>
+    <label class="error" for="__ALL_FIELDS__"></label>
+  </form>
+</main>
+
+</body>
+
+</html>
