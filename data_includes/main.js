@@ -1,8 +1,8 @@
 PennController.ResetPrefix(null); //Initiates PennController
 var showProgressBar = false;
-PennController.DebugOff()
-PennController.AddHost("https://raw.githubusercontent.com/awpzs/Number_ENG_Exp2/main/images/")
-PennController.AddHost("https://raw.githubusercontent.com/awpzs/Number_ENG_Exp2/main/images_fillers/")
+//PennController.DebugOff()
+PennController.AddHost("https://raw.githubusercontent.com/awpzs/Number_ENG_Exp3/main/images/")
+PennController.AddHost("https://raw.githubusercontent.com/awpzs/Number_ENG_Exp3/main/images_fillers/")
 
 Sequence( "setcounter", "information", "survey", "identification", "recording_information", "initRecorder", "instruction", "prac", "exp_start", "exp_block1", "rest", "exp_block2", "send", "final" )
 
@@ -62,13 +62,13 @@ newTrial("recording_information" ,
         .wait()    
 )
 
-//InitiateRecorder("https://localhost/pcibex/index.php", "Please grant expt.pcibex.net access to your microphone.").label("initRecorder")
-InitiateRecorder("https://langprolab.stir.ac.uk/pcibex/index.php", "Please grant expt.pcibex.net access to your microphone.").label("initRecorder")
+InitiateRecorder("https://localhost/pcibex/index.php", "Please grant expt.pcibex.net access to your microphone.").label("initRecorder")
+//InitiateRecorder("https://langprolab.stir.ac.uk/pcibex/index.php", "Please grant expt.pcibex.net access to your microphone.").label("initRecorder")
 
 Template(
     GetTable("instructions.csv")
         .setGroupColumn("list")
-        ,variable =>
+        , variable =>
     newTrial( "instruction" ,
         newHtml("information", variable.insPage)
             .print()
@@ -84,7 +84,8 @@ Template(
 
 Template(
     GetTable("prac.csv")
-        .setGroupColumn("list"), variable =>
+        .setGroupColumn("list")
+        , variable =>
         newTrial( "prac" ,
             newMediaRecorder("recorder", "audio")
                 .record()
