@@ -1,8 +1,8 @@
 order,list,item,condition,target_num,comp_num,sentence,firstDisplay,secondDisplay,expTrials,target1,target2
-2,1,P3,9,singular,,The corn is on Number 6 and it is below the man.,P3_1.jpg,P3_2.jpg,N,"""Now it is on Number 4.""","""Now the corn is on Number 4."""
-2,2,P3,9,singular,,The corn is on Number 6 and it is below the man.,P3_1.jpg,P3_2.jpg,N,"""Now it is on Number 4.""","""Now the corn is on Number 4."""
-2,3,P3,9,singular,,The corn is on Number 6 and it is below the man.,P3_1.jpg,P3_2.jpg,N,"""Now it is on Number 4.""","""Now the corn is on Number 4."""
-2,4,P3,9,singular,,The corn is on Number 6 and it is below the man.,P3_1.jpg,P3_2.jpg,N,"""Now it is on Number 4.""","""Now the corn is on Number 4."""
+2,1,P3,9,singular,,The kiwis are on Number 6 and they are below the man.,P3_1.jpg,P3_2.jpg,N,"""Now they are on Number 4.""","""Now the kiwis are on Number 4."""
+2,2,P3,9,singular,,The kiwis are on Number 6 and they are below the man.,P3_1.jpg,P3_2.jpg,N,"""Now they are on Number 4.""","""Now the kiwis are on Number 4."""
+2,3,P3,9,singular,,The kiwis are on Number 6 and they are below the man.,P3_1.jpg,P3_2.jpg,N,"""Now they are on Number 4.""","""Now the kiwis are on Number 4."""
+2,4,P3,9,singular,,The kiwis are on Number 6 and they are below the man.,P3_1.jpg,P3_2.jpg,N,"""Now they are on Number 4.""","""Now the kiwis are on Number 4."""
 3,1,X41,9,singular,,The make-up artist above the helmets is on Number 2.,X41_9_1.jpg,X41_9_2.jpg,N,"""Now she is on Number 6.""","""Now the make-up artist is on Number 6."""
 3,2,X41,9,singular,,The make-up artist above the helmets is on Number 2.,X41_9_1.jpg,X41_9_2.jpg,N,"""Now she is on Number 6.""","""Now the make-up artist is on Number 6."""
 3,3,X41,9,singular,,The make-up artist above the helmets is on Number 2.,X41_9_1.jpg,X41_9_2.jpg,N,"""Now she is on Number 6.""","""Now the make-up artist is on Number 6."""
