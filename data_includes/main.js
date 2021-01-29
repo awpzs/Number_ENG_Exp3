@@ -113,16 +113,16 @@ Template(
             clear()
             ,
             newText("In this example, you could say:&nbsp;").bold()
-                .settings.after(newText(variable.target1).bold())
+                .settings.after(newText(variable.target1).bold().color("blue"))
                 .settings.after(newText("&nbsp;OR&nbsp;").bold())
-                .settings.after(newText(variable.target2).bold())
+                .settings.after(newText(variable.target2).bold().color("blue"))
 //                .settings.after(newText("&nbsp; Choose referring expressions depending on situations.").bold())
 //                .settings.after(newText("Please press “Proceed” after finishing your responses completely.").bold())
                 .settings.center()
                 .print()
             ,
-            newText("<p>Choose referring expressions depending on situations.</p>").bold()
-                .settings.after(newText("&nbsp;Please press “Proceed” after finishing your responses completely.").bold())
+            newText("<p>Choose referring expressions depending on situations.</p>").bold().color("blue")
+                //.settings.after(newText("&nbsp;Please press “Proceed” after finishing your responses completely.").bold())
                 .settings.center()
                 .print()
             ,

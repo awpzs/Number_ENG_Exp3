@@ -39,10 +39,10 @@ order,list,item,condition,target_num,comp_num,sentence,firstDisplay,secondDispla
 15,2,24,4,plural,plural,The cashiers next to the princes are on Number 2.,E24_4_1.jpg,E24_4_2.jpg,Y
 15,3,24,3,plural,plural,The cashiers next to the princesses are on Number 2.,E24_3_1.jpg,E24_3_2.jpg,Y
 15,4,24,1,plural,singular,The cashiers next to the princess are on Number 2.,E24_1_1.jpg,E24_1_2.jpg,Y
-16,1,X27,9,singular,plural,The olives are above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
-16,2,X27,9,singular,plural,The olives are above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
-16,3,X27,9,singular,plural,The olives are above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
-16,4,X27,9,singular,plural,The olives are above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
+16,1,X27,9,singular,plural,On Number 3, there are olives and they are above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
+16,2,X27,9,singular,plural,On Number 3, there are olives and they are above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
+16,3,X27,9,singular,plural,On Number 3, there are olives and they are above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
+16,4,X27,9,singular,plural,On Number 3, there are olives and they are above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
 17,1,P5,9,plural,,The tractors are on Number 4 and they are below the wheelbarrow.,P5_1.jpg,P5_2.jpg,N
 17,2,P5,9,plural,,The tractors are on Number 4 and they are below the wheelbarrow.,P5_1.jpg,P5_2.jpg,N
 17,3,P5,9,plural,,The tractors are on Number 4 and they are below the wheelbarrow.,P5_1.jpg,P5_2.jpg,N
